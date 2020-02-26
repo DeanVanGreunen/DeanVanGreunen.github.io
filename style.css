@@ -1,0 +1,379 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'LuxuryText';
+    src: url('LuxuryText.ttf');
+}
+
+/* STYLE */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+    font-family: LuxuryText, sans-serif;
+    scroll-behavior: smooth; /* Smooth Scroll */
+}
+
+.page-1 {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+      ), url(image/plant.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll; /* make bg scroll with content */
+}
+
+.page-1 > nav {
+    display: block;
+    position: absolute;
+    right: 64px;
+    top: 16px;
+}
+
+.page-1 > nav > ul {
+    display: block;
+    list-style: none;
+}
+
+.page-1 > nav > ul > li {
+    display: inline-block;
+    padding: 0px 24px;
+}
+
+.page-1 > nav > ul > li > a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.page-1 > h1 {
+    display: block;
+    position: absolute;
+    top: 72px;
+    left: 64px;
+    color: #FFF;
+    font-size: 16pt;
+}
+
+.page-1 > .container {
+    display: block;
+    text-align: center;
+    padding-top: 350px;
+}
+
+
+.page-1 > .container > h1 {
+    color: #FFF;
+    padding-bottom: 32px;
+    font-size: 20pt;
+}
+
+.page-1 > .container > h1::after {
+    display: block;
+    content: "";
+    position: relative;
+    width: 64px;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    top: 16px;
+}
+
+.page-1 > .container > p {
+    color: #FFF;
+    padding-bottom: 16px;
+    font-size: 12pt;
+    letter-spacing: 4px;
+}
+
+
+.page-1 > .container > a {
+    display: block;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 12px 64px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 32px;
+    border: 1px solid #00ff1280;
+}
+
+/* Page 2 */
+
+.page-2 {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+      ), url(image/sunset.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll; /* make bg scroll with content */
+}
+
+
+.page-2 > h1 {
+    display: block;
+    position: relative;
+    top: 72px;
+    left: 64px;
+    color: #FFF;
+    font-size: 16pt;
+}
+
+
+.page-2 > .container {
+    display: block;
+    position: relative;
+    top: 128px;
+    left: 64px;
+    text-align: center;
+}
+
+
+.page-2 > .container > .row {
+    display: block;
+    clear: both;
+}
+
+.page-2 > .container > .row > .col {
+    display: inline-table;
+    vertical-align: top;
+    padding-bottom: 64px;
+    margin: 8px 8px;
+}
+
+
+.page-2 > .container > .row > .col > div {
+    display: block;
+    width: 300px;
+    height: 50px;
+    border-radius: 32px;
+    /*border: 1px solid #00ff1280;*/
+    padding-top: 8px;
+    background-color: #282828F0;
+}
+
+.page-2 > .container > .row > .col > div > h1 {
+    display: block;
+    font-size: 12pt;
+    padding-bottom: 4px;
+    color: #FFF;
+}
+
+
+.page-2 > .container > .row > .col > div > div {
+    display: block;
+    text-align: center;
+}
+
+
+.page-2 > .container > .row > .col > div > div > a {
+    color: #ffffff;
+    font-size: 8pt;
+    text-decoration: none;
+    background: url('image/url.png');
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: 0px -16px;
+    font-style: italic;
+}
+
+
+/* Page 3 */
+
+.page-3 {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background: #191919 no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll; /* make bg scroll with content */
+}
+
+
+.page-3 > h1 {
+    display: block;
+    position: relative;
+    top: 72px;
+    left: 64px;
+    color: #FFF;
+    font-size: 16pt;
+}
+
+.page-3 > .container {
+    display: block;
+    position: relative;
+    top: 128px;
+    left: 64px;
+    text-align: center;
+}
+
+
+.page-3 > .container > .row {
+    display: block;
+    clear: both;
+}
+
+.page-3 > .container > .row > .col {
+    display: inline-table;
+    vertical-align: top;
+    padding-bottom: 64px;
+    margin: 8px 8px;
+}
+
+
+.page-3 > .container > .row > .col > div {
+    display: block;
+    width: 300px;
+    height: 50px;
+    border-radius: 32px;
+    /*border: 1px solid #00ff1280;*/
+    padding-top: 8px;
+    background-color: #282828F0;
+}
+
+.page-3 > .container > .row > .col > div > h1 {
+    display: block;
+    font-size: 12pt;
+    padding-bottom: 4px;
+    color: #FFF;
+}
+
+
+.page-3 > .container > .row > .col > div > div {
+    display: block;
+    text-align: center;
+}
+
+
+.page-3 > .container > .row > .col > div > div > a {
+    color: #ffffff;
+    font-size: 8pt;
+    text-decoration: none;
+    background: url('image/url.png');
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: 0px -16px;
+    font-style: italic;
+}
+
+.aboutme {
+    display: block;
+    position: relative;
+    top:128px;
+}
+
+.aboutme > h1 {
+    display: block;
+    position: relative;
+    top: 72px;
+    left: 64px;
+    color: #FFF;
+    font-size: 16pt;
+}
+
+.aboutme > .container {
+    display: block;
+    position: relative;
+    top: 128px;
+    left: 128px;
+}
+
+.aboutme > .container > .profile_image {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    background: url(image/me.jpg);
+    background-position: center center;
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+
+.aboutme > .container > .info {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 24px;
+    color: #FFF;
+}
+
+
+.aboutme > .container > .info > ul {
+    list-style: none;
+}
+
+.aboutme > .container > .info > ul > li{
+    padding-bottom: 12px;
+}
+
+.aboutme > .container > .info > ul > li:first-child{
+    padding-bottom: 24px;
+}
+
+.aboutme > .container > .info > ul > li > a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+span.fs-mail,
+span.fs-whatsapp,
+span.fs-twitter,
+span.fs-github,
+span.fs-gitlab,
+span.fs-keybase {
+    display: inline-block;
+    width:16px;
+    height:16px;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    vertical-align: text-top;
+    padding-right: 8px;
+}
+
+
+span.fs-mail {
+    background-image: url(image/mail.png);
+}
+
+span.fs-whatsapp {
+    background-image: url(image/whatsapp.png);
+}
+
+span.fs-twitter {
+    background-image: url(image/twitter.png);
+}
+
+span.fs-github {
+    background-image: url(image/github.png);
+}
+
+span.fs-gitlab {
+    background-image: url(image/gitlab.png);
+}
+
+span.fs-keybase {
+    background-image: url(image/keybase.png);
+}
